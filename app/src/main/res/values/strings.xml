@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Jeep</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_implement">暂未实现</string>
+    <string name="qr_btn_description">二维码扫描按钮</string>
+    <string name="map_btn_description">地图按钮</string>
+    <string name="settings_btn_description">设置按钮</string>
+    <string name="location_btn_description">定位按钮</string>
+    <string name="yuelushuyuan_img_description">岳麓书院图片</string>
+    <string name="return_btn_description">返回按钮</string>
+    <string name="play_btn_description">播放按钮</string>
+    <string name="search_btn_description">搜索景点按钮</string>
+
+    <string name="jing_dian">景点</string>
+    <string name="qr_scan">QR扫描</string>
+    <string name="my_settings">我的设定</string>
+    <string name="fanhui">返回</string>
+    <string name="play_voice">播放</string>
+    <string name="spot_list">列表点播</string>
+    <string name="baiquanxuan">百泉轩</string>
+    <string name="baiquanxuan_introduce">百泉轩始建于北宋之初，地处岳麓山清风峡谷口，溪泉荟萃，乃岳麓书院风景绝佳之地。历代山长爱溪泉之妙，筑轩而居，享尽自然的天籁之音。元代著名理学家吴澄作《百泉轩记》，说百泉轩前溪泉：“如雪如冰，如练如鹤，自西而来，趋于北，折而东，还绕而南，渚为清池，四时澄澄无发滓，万古涓涓无须臾”。南宋乾道三年（1167），朱熹访院，与山长张轼“聚处同游岳麓”，“昼而燕坐，夜而栖宿”，都在百泉轩中，相传二人曾在此论学三昼夜而不息。</string>
+    <string name="hexitai">赫曦台</string>
+    <string name="hexitai_introduce">赫曦台位于岳麓书院门前。明嘉靖七年知府孙存在岳麓山顶建有赫曦台。王守仁题诗：“隔江岳麓悬情久，雷雨潇湘日夜来，安得轻风扫微霭，振衣直上赫曦台”。后来逐渐荒废。清乾隆五十五年（公元1790 年）山长罗典建台于书院前，其意在追念朱熹。台经多次修葺，保留至今。</string>
+    <string name="fengyuting_yinmachi">风雩亭 饮马池</string>
+    <string name="fengyuting_yinmachi_introduce">《风雩亭词》是由宋朝张栻所作的古诗词。张栻，宋代理学家、文学家。字敬夫、钦夫、乐斋(愫斋)，号南轩，世称南轩先生，汉州绵竹(今四川绵竹)人，徙居衡阳(今属湖南)。张浚之子。</string>
+    <string name="damen">大门</string>
+    <string name="chuyuebianchong">楚越编钟展播室</string>
+    <string name="jiaoxuezhai">教学斋</string>
+    <string name="yuelushuyuan">岳麓书院是古代汉族书院建筑，属于中国历史上著名的四大书院之一。位于湖南省长沙市湘江西岸的国家AAAAA级风景名胜岳麓山风景区。1988年，岳麓书院建筑群被国务院批准为第三批全国重点文物保护单位，为岳麓山风景区重要观光点。</string>
+    <string name="jing_dian_description">景点图片</string>
+    <string name="title_activity_introduce">IntroduceActivity</string>
+    <string name="title_activity_show">ShowActivity</string>
+</resources>

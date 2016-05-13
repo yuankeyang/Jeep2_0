@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wang.shenglifei.jeep.activitys.SpotsActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/return_btn_description"
+            android:id="@+id/return_btn"
+            android:src="@drawable/return_btn"
+            android:background="@color/transparent" /> </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:id="@+id/scrollView2" >
+            <TableLayout android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/sun"
+                            android:onClick="onClick"
+                            android:layout_gravity="center"
+                            android:tag="baiquanxuan"
+                            android:contentDescription="@string/jing_dian_description" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/baiquanxuan"
+                            android:background="@color/selected"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/sun"
+                            android:onClick="onClick"
+                            android:tag="hexitai"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/jing_dian_description"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:background="@color/selected"
+                            android:text="@string/hexitai"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:onClick="onClick"
+                            android:src="@drawable/sun"
+                            android:layout_gravity="center"
+                            android:tag="fengyuting_yinmachi"
+                            android:contentDescription="@string/jing_dian_description"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/fengyuting_yinmachi"
+                            android:background="@color/selected"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/sun"
+                            android:tag="baiquanxuan"
+                            android:layout_gravity="center"
+                            android:onClick="onClick"
+                            android:contentDescription="@string/jing_dian_description" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/baiquanxuan"
+                            android:background="@color/selected"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/sun"
+                            android:onClick="onClick"
+                            android:tag="hexitai"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/jing_dian_description"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:background="@color/selected"
+                            android:text="@string/hexitai"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:id="@+id/spot_img"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/sun"
+                            android:onClick="onClick"
+                            android:tag="fengyuting_yinmachi"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/jing_dian_description"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/fengyuting_yinmachi"
+                            android:background="@color/selected"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+
+</RelativeLayout>
